@@ -1177,7 +1177,8 @@ a.text-dark {
 
 /* Service Cards */
 .service-card {
-    background: #fff;
+    background: #e8edff
+;
     text-align: center;
     padding: 40px 25px;
     border-radius: 15px;
@@ -1196,3 +1197,34 @@ a.text-dark {
     margin-bottom: 15px;
 }
 
+.about-icon {
+    font-size: 45px;
+    color: white;
+}
+.contact-info-box {
+    background: #f8f9ff;
+    transition: 0.3s ease;
+    border-left: 4px solid #1a1c6e;
+  }
+
+  .contact-info-box:hover {
+    background: #1a1c6e;
+    transform: translateX(5px);
+    color: white !important;
+  }
+  .contact-info-box:hover h5 {
+    color: white !important;
+  }
+
+  textarea:focus, input:focus {
+    border-color: #1a1c6e !important;
+    box-shadow: 0 0 0 0.2rem rgba(26, 28, 110, 0.2) !important;
+  }
+
+  .service-card p {
+    color: #333;
+  }
+  
+  .p-4-5 {
+    padding: 2rem !important;   /* Exactly between p-4 and p-5 */
+}
