@@ -1228,3 +1228,71 @@ a.text-dark {
   .p-4-5 {
     padding: 2rem !important;   /* Exactly between p-4 and p-5 */
 }
+
+.service-text-box {
+    border-left: 5px solid #1a1c6e;
+    background: #e8edff;
+    transition: 0.3s ease;
+}
+
+.service-text-box:hover {
+    transform: translateY(-6px);
+    background: #dfe6ff;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, a, span, li, button, input, label, div {
+    font-family: 
+"Helvetica Neue",Helvetica,Arial,sans-serif
+ !important;
+}
+
+.navbar-nav .nav-link {
+    font-family: 
+"Helvetica Neue",Helvetica,Arial,sans-serif
+ !important;
+}
+.section-title {
+    font-family: 
+"Helvetica Neue",Helvetica,Arial,sans-serif
+ !important;
+}
+.footer {
+    font-family: 
+"Helvetica Neue",Helvetica,Arial,sans-serif
+ !important;
+}
+.btn-danger {
+    font-family: 
+"Helvetica Neue",Helvetica,Arial,sans-serif
+ !important;
+} 
+.btn-11 {
+    font-family: 
+"Helvetica Neue",Helvetica,Arial,sans-serif
+ !important;
+} 
+.about-btn {
+    font-family: 
+"Helvetica Neue",Helvetica,Arial,sans-serif
+ !important;
+}
+.donate-btn {
+    font-family: 
+"Helvetica Neue",Helvetica,Arial,sans-serif
+ !important;
+}
+.counter-item h4 {
+    font-family: 
+"Helvetica Neue",Helvetica,Arial,sans-serif
+ !important;
+}
+.program-content h4 {
+    font-family: 
+"Helvetica Neue",Helvetica,Arial,sans-serif
+ !important;
+}
+.blog-content a.h4 {
+    font-family: 
+"Helvetica Neue",Helvetica,Arial,sans-serif
+ !important;
+}
