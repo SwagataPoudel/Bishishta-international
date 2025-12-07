@@ -1296,3 +1296,34 @@ body, p, h1, h2, h3, h4, h5, h6, a, span, li, button, input, label, div {
 "Helvetica Neue",Helvetica,Arial,sans-serif
  !important;
 }
+/* Apply same font everywhere */
+body, 
+p, h1, h2, h3, h4, h5, h6,
+a, span, li, button, input, label, div {
+    font-family: "Poppins", sans-serif !important;
+}
+/* Section Title Uniform Styling */
+.section-title,
+.display-3,
+.display-5,
+h1.section-title-main,
+.about-section h6,
+.about-section h2,
+.features h2,
+.service h1,
+.blog h1,
+.programs h1 {
+    font-size: 42px !important;
+    font-weight: 600 !important;
+    color:white !important;
+    text-transform: none !important;
+}
+
+/* Subheadings (optional but recommended) */
+.section-subtitle,
+h4.text-uppercase,
+.features .fw-bold,
+.service h4 {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
