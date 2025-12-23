@@ -1,29 +1,33 @@
 
+/* Global font override */
+html, body {
+  font-family: Arial, Helvetica, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Responsive logo and header sizing */
 .navbar-brand img.logo {
-    width: 160px !important;
-    height: 150px !important;
-    display: block;
-    max-height: none !important;
-    margin-top: -20px !important;
+  width: auto !important;
+  height: clamp(80px, 12vw, 180px) !important;
+  max-height: 180px !important;
+  display: block;
+  object-fit: contain;
+  margin-top: -10px !important;
+  margin-bottom: -10px !important;
+  transition: all 0.3s ease;
 }
 
 @media (min-width: 1200px) {
-    .navbar-brand img.logo {
-        width: 180px;
-    }
+  .navbar-brand img.logo {
+    height: 160px !important;
+  }
 }
 
 @media (max-width: 576px) {
-    .navbar-brand img.logo {
-        width: 110px;
-    }
-}
-.navbar-brand img.logo {
-  height: 190px !important;   
-  width: auto !important;     
-  object-fit: contain;        
-  margin-top: -20px !important; 
-  margin-bottom: -20px !important;
+  .navbar-brand img.logo {
+    height: 90px !important;
+  }
 }
 
 .navbar-nav .nav-link {
@@ -65,13 +69,13 @@
 #main-header .navbar {
   background: transparent !important;
   transition: background 0.4s ease, padding 0.4s ease;
-  padding: 25px 0; /* make header taller */
+  padding: clamp(10px, 2.5vw, 25px) 0; /* responsive header padding */
 }
 
 #main-header.sticky .navbar {
   background: #ffffff !important; 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  padding: 15px 0;
+  padding: clamp(8px, 1.7vw, 15px) 0;
 }
 
 #main-header.sticky .navbar .nav-link {
@@ -86,15 +90,16 @@
   color: #1a1c6e !important;
 }
 
+
 .navbar-brand img.logo {
-  height: 190px !important; 
+  height: clamp(70px, 11vw, 160px) !important;
   width: auto;
   object-fit: contain;
   transition: all 0.3s ease;
 }
 
 #main-header.sticky .navbar-brand img.logo {
-  height: 100px !important;
+  height: clamp(55px, 7vw, 100px) !important;
 }
 
 .navbar-nav .nav-link {
@@ -102,6 +107,8 @@
   color: #0d1b2a !important;
   margin: 0 12px;
   transition: color 0.3s ease;
+  font-size: clamp(14px, 1.2vw, 18px);
+  padding: clamp(6px, 1.5vw, 35px) 0;
 }
 
 .navbar-nav .nav-link:hover,
